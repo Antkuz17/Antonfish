@@ -32,7 +32,8 @@ Just finished exams, took a bit of a break but now I have a bit more free time t
 > Mostly do more research and screw around more with bitboards, gonna try to set up some basic move generation 
 
 ### Tasks Completed
-- 
+- Completed the main struct for storing a position
+- Optimized this struct for low memory usage (tested storing in array vs no for padding purposes)
 
 
 ### Next Steps / TODO
