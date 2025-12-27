@@ -5,9 +5,7 @@ Anton: Just started the project. I’ve been wanting to build a chess engine for
 Note: From here on, each entry will follow the devlogformat, this first entry is just a quick description of what the project is.
 
 
-## [2025-11-10]
-
-**Duration:** [2 30]
+## November 10, 2025 
 
 ### Goal / Objective
 > Begin to understand how chess engines work 
@@ -22,3 +20,20 @@ Note: From here on, each entry will follow the devlogformat, this first entry is
 - Implement basic bitboard representation and piece placement.
 - Continue research
 
+December 27,2025
+
+Just finished exams, took a bit of a break but now I have a bit more free time to work on this engine. Should very cool and will definitely work
+
+
+
+## December 27, 2025
+
+### Goal / Objective
+> Mostly do more research and screw around more with bitboards, gonna try to set up some basic move generation 
+
+### Tasks Completed
+- 
+
+
+### Next Steps / TODO
+- 
