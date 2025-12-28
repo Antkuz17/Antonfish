@@ -2,7 +2,9 @@
 #include "header.hpp"
 
 int main(){
-    std::cout << sizeof(S_Board) << std::endl;
+
+    S_Board test = StartPos();
+    printBoard(test);
     return 0;
 }
 
@@ -29,8 +31,27 @@ S_Board StartPos(){
 
     newBoard.fiftyMove = 0;
     newBoard.currentPlies = 0;
-    newBoard.enPassantTargetSquare = 0;
+    newBoard.hisPly = 0;
+    newBoard.enPas = 0;
     newBoard.sideToMove =  0;
+    newBoard.posKey = 0;
+    newBoard.castlePerms = 15;
 
     return newBoard;
+}
+
+// Following function set castling rights off for a specific castle type
+void setWCasKing(S_Board &board){
+    board.castlePerms &= ~1;
+}
+
+void setWCasQueen(S_Board &board){
+    board.castlePerms &= ~2;
+}
+
+void setBCasKing(S_Board &board){
+    board.castlePerms &= ~4;
+}
+void setBCasQueen(S_Board &board){
+    board.castlePerms &= ~8;
 }

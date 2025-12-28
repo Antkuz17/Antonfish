@@ -33,8 +33,9 @@ Just finished exams, took a bit of a break but now I have a bit more free time t
 
 ### Tasks Completed
 - Completed the main struct for storing a position
-- Optimized this struct for low memory usage (tested storing in array vs no for padding purposes)
-
+- Optimized this struct for low memory usage (tested storing in array vs not for padding purposes)
+- Added functions for castling and tracking of permissions
 
 ### Next Steps / TODO
-- 
+- Write a print function to view the S_Board Struct in terminal
+- Start creating move generation properly
