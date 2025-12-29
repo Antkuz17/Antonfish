@@ -8,6 +8,8 @@ int main(){
     return 0;
 }
 
+
+
 // Initilization of board to the start chess position
 S_Board StartPos(){
     S_Board newBoard;

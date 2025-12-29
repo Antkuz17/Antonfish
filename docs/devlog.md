@@ -39,3 +39,22 @@ Just finished exams, took a bit of a break but now I have a bit more free time t
 ### Next Steps / TODO
 - Write a print function to view the S_Board Struct in terminal
 - Start creating move generation properly
+
+
+
+## December 28, 2025
+
+### Goal / Objective
+> Complete the board display based on bitboards and instead of move generation im gonna plan out fully what the first engine will be
+> Im not gonna do any fancy deep searching algorithms, just the bare bones and then im gonna work on optimizing it after I have a working version
+> Zobrist hash, alpha beta prunning, and null move prunning will be implemented later
+
+### Tasks Completed
+- Wrote the display terminal function for the chess board
+- I think I have most of move generation figured out. Not the generation itself but the notation and how I will implement
+- Moves will be stores as follows, bits 0-5 start square, 6-11, end square, the rest will store if it was a capture, what was captured, if it was a promotion and to what, castle?, en passant?
+- lost faith in myself
+
+### Next Steps / TODO
+- Tomorrow get pawn and maybe rook movement functions done
+- Try not to loose my sanity

@@ -9,6 +9,8 @@ struct S_Undo{
 
 // Struct representing the board position
 struct S_Board{
+
+
     // Pawns
     unsigned long long WP;
     unsigned long long BP; 
@@ -64,7 +66,7 @@ struct S_Board{
     unsigned char castlePerms;
 
     // Array to track the time line of moves to be able to track backwards in case
-    S_Undo history[2048]{};
+    S_Undo history[256]{};
     
 };  
 
