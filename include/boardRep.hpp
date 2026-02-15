@@ -72,16 +72,6 @@ struct S_Board{
 
 
 
-// Prints the board to the terminal for debugging purposes
-void printBoard(const S_Board &board);
-
-// Used in the print board function for clear code
-void printLine();
-
-
-
-
-
 
 
 // Initilization of board to the start chess position
@@ -92,6 +82,3 @@ void setWCasKing(S_Board &board);
 void setWCasQueen(S_Board &board);
 void setBCasKing(S_Board &board);
 void setBCasQueen(S_Board &board);
-
-
-
