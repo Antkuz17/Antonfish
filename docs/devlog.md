@@ -58,3 +58,19 @@ Just finished exams, took a bit of a break but now I have a bit more free time t
 ### Next Steps / TODO
 - Tomorrow get pawn and maybe rook movement functions done
 - Try not to loose my sanity
+
+
+## December 30, 2025
+
+### Goal / Objective
+> Was busy today so all I wanna get done is the pawn move generation in the format previously described
+
+### Tasks Completed
+- Wrote the display terminal function for the chess board
+- I think I have most of move generation figured out. Not the generation itself but the notation and how I will implement
+- Moves will be stores as follows, bits 0-5 start square, 6-11, end square, the rest will store if it was a capture, what was captured, if it was a promotion and to what, castle?, en passant?
+- lost faith in myself
+
+### Next Steps / TODO
+- Tomorrow get pawn and maybe rook movement functions done
+- Try not to loose my sanity

@@ -1,11 +1,13 @@
 #include <iostream>
 #include "header.hpp"
+#include <bit>
 
 int main(){
-
-    S_Board test = StartPos();
-    printBoard(test);
-    return 0;
+    unsigned char n = 8;
+    std::cout << std::countr_zero(n) << std::endl;
+    // S_Board test = StartPos();
+    // printBoard(test);
+    // return 0;
 }
 
 
@@ -57,3 +59,6 @@ void setBCasKing(S_Board &board){
 void setBCasQueen(S_Board &board){
     board.castlePerms &= ~8;
 }
+
+// To compile and run the code:
+// g++ -std=c++20 Antonfish.cpp -o test.exe ; .\test.exe
